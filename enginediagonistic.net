@@ -1,182 +1,14 @@
 net
 {
-	propagationenginegenerator1791944048146838126L = "edu.ucla.belief.approx.BeliefPropagationSettings@6e5ef910";
-	recoveryenginegenerator6944530267470113528l = "edu.ucla.util.SettingsImpl@1d651ffd";
+	propagationenginegenerator1791944048146838126L = "edu.ucla.belief.approx.BeliefPropagationSettings@2fca4a82";
+	recoveryenginegenerator6944530267470113528l = "edu.ucla.util.SettingsImpl@5fb5a012";
 	node_size = (130.0 55.0);
 }
 
-node CrankShaft
-{
-	states = ("state0" "state1" );
-	position = (721 -488);
-	diagnosistype = "AUXILIARY";
-	DSLxSUBMODEL = "Root Submodel";
-	ismapvariable = "false";
-	ID = "variable7";
-	label = "CrankShaft";
-	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
-	excludepolicy = "include whole CPT";
-}
-node solenoid
-{
-	states = ("state0" "state1" );
-	position = (1027 -522);
-	diagnosistype = "AUXILIARY";
-	DSLxSUBMODEL = "Root Submodel";
-	ismapvariable = "false";
-	ID = "variable11";
-	label = "solenoid";
-	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
-	excludepolicy = "include whole CPT";
-}
-node FuelInjector
-{
-	states = ("state0" "state1" );
-	position = (378 -402);
-	diagnosistype = "AUXILIARY";
-	DSLxSUBMODEL = "Root Submodel";
-	ismapvariable = "false";
-	ID = "variable6";
-	label = "FuelInjector";
-	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
-	excludepolicy = "include whole CPT";
-}
-node SparkPlug
-{
-	states = ("state0" "state1" );
-	position = (801 -670);
-	diagnosistype = "AUXILIARY";
-	DSLxSUBMODEL = "Root Submodel";
-	ismapvariable = "false";
-	ID = "variable14";
-	label = "SparkPlug";
-	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
-	excludepolicy = "include whole CPT";
-}
-node Valves
-{
-	states = ("state0" "state1" );
-	position = (60 -214);
-	diagnosistype = "AUXILIARY";
-	DSLxSUBMODEL = "Root Submodel";
-	ismapvariable = "false";
-	ID = "variable3";
-	label = "Valves";
-	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
-	excludepolicy = "include whole CPT";
-}
-node Alternator
-{
-	states = ("state0" "state1" );
-	position = (29 -671);
-	diagnosistype = "AUXILIARY";
-	DSLxSUBMODEL = "Root Submodel";
-	ismapvariable = "false";
-	ID = "variable1";
-	label = "Alternator";
-	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
-	excludepolicy = "include whole CPT";
-}
-node Battery
-{
-	states = ("state0" "state1" );
-	position = (0 -529);
-	diagnosistype = "AUXILIARY";
-	DSLxSUBMODEL = "Root Submodel";
-	ismapvariable = "false";
-	ID = "variable12";
-	label = "Battery";
-	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
-	excludepolicy = "include whole CPT";
-}
-node camshaft
-{
-	states = ("state0" "state1" );
-	position = (-37 -399);
-	diagnosistype = "AUXILIARY";
-	DSLxSUBMODEL = "Root Submodel";
-	ismapvariable = "false";
-	ID = "variable5";
-	label = "camshaft";
-	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
-	excludepolicy = "include whole CPT";
-}
-node Engine
-{
-	states = ("state0" "state1" );
-	position = (443 -753);
-	diagnosistype = "AUXILIARY";
-	DSLxSUBMODEL = "Root Submodel";
-	ismapvariable = "false";
-	ID = "variable15";
-	label = "Engine";
-	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
-	excludepolicy = "include whole CPT";
-}
-node StarterMotor
-{
-	states = ("state0" "state1" );
-	position = (326 -620);
-	diagnosistype = "AUXILIARY";
-	DSLxSUBMODEL = "Root Submodel";
-	ismapvariable = "false";
-	ID = "variable2";
-	label = "StarterMotor";
-	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
-	excludepolicy = "include whole CPT";
-}
-node TimingBelt
-{
-	states = ("state0" "state1" );
-	position = (934 -238);
-	diagnosistype = "AUXILIARY";
-	DSLxSUBMODEL = "Root Submodel";
-	ismapvariable = "false";
-	ID = "variable10";
-	label = "TimingBelt";
-	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
-	excludepolicy = "include whole CPT";
-}
-node AirFilter
-{
-	states = ("state0" "state1" );
-	position = (645 -624);
-	diagnosistype = "AUXILIARY";
-	DSLxSUBMODEL = "Root Submodel";
-	ismapvariable = "false";
-	ID = "variable13";
-	label = "AirFilter";
-	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
-	excludepolicy = "include whole CPT";
-}
-node Radiator
-{
-	states = ("state0" "state1" );
-	position = (659 -188);
-	diagnosistype = "AUXILIARY";
-	DSLxSUBMODEL = "Root Submodel";
-	ismapvariable = "false";
-	ID = "variable4";
-	label = "Radiator";
-	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
-	excludepolicy = "include whole CPT";
-}
-node IgnitionSystem
-{
-	states = ("state0" "state1" );
-	position = (822 -395);
-	diagnosistype = "AUXILIARY";
-	DSLxSUBMODEL = "Root Submodel";
-	ismapvariable = "false";
-	ID = "variable9";
-	label = "IgnitionSystem";
-	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
-	excludepolicy = "include whole CPT";
-}
 node Distributor
 {
 	states = ("state0" "state1" );
-	position = (195 -155);
+	position = (482 -447);
 	diagnosistype = "AUXILIARY";
 	DSLxSUBMODEL = "Root Submodel";
 	ismapvariable = "false";
@@ -188,7 +20,7 @@ node Distributor
 node Piston
 {
 	states = ("state0" "state1" );
-	position = (500 -182);
+	position = (721 -291);
 	diagnosistype = "AUXILIARY";
 	DSLxSUBMODEL = "Root Submodel";
 	ismapvariable = "false";
@@ -197,42 +29,187 @@ node Piston
 	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
 	excludepolicy = "include whole CPT";
 }
-potential ( CrankShaft | Piston )
+node AirFilter
+{
+	states = ("state0" "state1" );
+	position = (468 -287);
+	diagnosistype = "AUXILIARY";
+	DSLxSUBMODEL = "Root Submodel";
+	ismapvariable = "false";
+	ID = "variable13";
+	label = "AirFilter";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node FuelInjector
+{
+	states = ("state0" "state1" );
+	position = (103 -242);
+	diagnosistype = "AUXILIARY";
+	DSLxSUBMODEL = "Root Submodel";
+	ismapvariable = "false";
+	ID = "variable6";
+	label = "FuelInjector";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node camshaft
+{
+	states = ("state0" "state1" );
+	position = (-12 -420);
+	diagnosistype = "AUXILIARY";
+	DSLxSUBMODEL = "Root Submodel";
+	ismapvariable = "false";
+	ID = "variable5";
+	label = "camshaft";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node Alternator
+{
+	states = ("state0" "state1" );
+	position = (-204 -372);
+	diagnosistype = "AUXILIARY";
+	DSLxSUBMODEL = "Root Submodel";
+	ismapvariable = "false";
+	ID = "variable1";
+	label = "Alternator";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node CrankShaft
+{
+	states = ("state0" "state1" );
+	position = (798 -482);
+	diagnosistype = "AUXILIARY";
+	DSLxSUBMODEL = "Root Submodel";
+	ismapvariable = "false";
+	ID = "variable7";
+	label = "CrankShaft";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node Engine
+{
+	states = ("state0" "state1" );
+	position = (431 -825);
+	diagnosistype = "AUXILIARY";
+	DSLxSUBMODEL = "Root Submodel";
+	ismapvariable = "false";
+	ID = "variable15";
+	label = "Engine";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node solenoid
+{
+	states = ("state0" "state1" );
+	position = (636 -623);
+	diagnosistype = "AUXILIARY";
+	DSLxSUBMODEL = "Root Submodel";
+	ismapvariable = "false";
+	ID = "variable11";
+	label = "solenoid";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node IgnitionCoil
+{
+	states = ("state0" "state1" );
+	position = (319 -419);
+	diagnosistype = "AUXILIARY";
+	DSLxSUBMODEL = "Root Submodel";
+	ismapvariable = "false";
+	ID = "variable9";
+	label = "IgnitionCoil";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node Valves
+{
+	states = ("state0" "state1" );
+	position = (146 -418);
+	diagnosistype = "AUXILIARY";
+	DSLxSUBMODEL = "Root Submodel";
+	ismapvariable = "false";
+	ID = "variable3";
+	label = "Valves";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node CombustionChamber
+{
+	states = ("state0" "state1" );
+	position = (344 -654);
+	diagnosistype = "AUXILIARY";
+	DSLxSUBMODEL = "Root Submodel";
+	ismapvariable = "false";
+	ID = "variable0";
+	label = "CombustionChamber";
+	excludepolicy = "include whole CPT";
+}
+node StarterMotor
+{
+	states = ("state0" "state1" );
+	position = (798 -745);
+	diagnosistype = "AUXILIARY";
+	DSLxSUBMODEL = "Root Submodel";
+	ismapvariable = "false";
+	ID = "variable2";
+	label = "StarterMotor";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node SparkPlug
+{
+	states = ("state0" "state1" );
+	position = (366 -508);
+	diagnosistype = "AUXILIARY";
+	DSLxSUBMODEL = "Root Submodel";
+	ismapvariable = "false";
+	ID = "variable14";
+	label = "SparkPlug";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node TimingBelt
+{
+	states = ("state0" "state1" );
+	position = (257 -327);
+	diagnosistype = "AUXILIARY";
+	DSLxSUBMODEL = "Root Submodel";
+	ismapvariable = "false";
+	ID = "variable10";
+	label = "TimingBelt";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node Battery
+{
+	states = ("state0" "state1" );
+	position = (-45 -516);
+	diagnosistype = "AUXILIARY";
+	DSLxSUBMODEL = "Root Submodel";
+	ismapvariable = "false";
+	ID = "variable12";
+	label = "Battery";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+potential ( Distributor | IgnitionCoil )
 {
 	data = ((	0.5	0.5	)
 		(	0.5	0.5	));
 }
-potential ( solenoid | Battery )
-{
-	data = ((	0.5	0.5	)
-		(	0.5	0.5	));
-}
-potential ( FuelInjector | )
+potential ( Piston | )
 {
 	data = (	0.5	0.5	);
 }
-potential ( SparkPlug | solenoid Distributor IgnitionSystem )
+potential ( AirFilter | )
 {
-	data = ((((	0.5	0.5	)
-		(	0.5	0.5	))
-		((	0.5	0.5	)
-		(	0.5	0.5	)))
-		(((	0.5	0.5	)
-		(	0.5	0.5	))
-		((	0.5	0.5	)
-		(	0.5	0.5	))));
+	data = (	0.5	0.5	);
 }
-potential ( Valves | FuelInjector )
-{
-	data = ((	0.5	0.5	)
-		(	0.5	0.5	));
-}
-potential ( Alternator | Battery )
-{
-	data = ((	0.5	0.5	)
-		(	0.5	0.5	));
-}
-potential ( Battery | )
+potential ( FuelInjector | )
 {
 	data = (	0.5	0.5	);
 }
@@ -241,158 +218,52 @@ potential ( camshaft | TimingBelt )
 	data = ((	0.5	0.5	)
 		(	0.5	0.5	));
 }
-potential ( Engine | Battery AirFilter SparkPlug CrankShaft camshaft Radiator Valves )
+potential ( Alternator | )
 {
-	data = ((((((((	0.5	0.5	)
-		(	0.5	0.5	))
-		((	0.5	0.5	)
-		(	0.5	0.5	)))
-		(((	0.5	0.5	)
-		(	0.5	0.5	))
-		((	0.5	0.5	)
-		(	0.5	0.5	))))
-		((((	0.5	0.5	)
-		(	0.5	0.5	))
-		((	0.5	0.5	)
-		(	0.5	0.5	)))
-		(((	0.5	0.5	)
-		(	0.5	0.5	))
-		((	0.5	0.5	)
-		(	0.5	0.5	)))))
-		(((((	0.5	0.5	)
-		(	0.5	0.5	))
-		((	0.5	0.5	)
-		(	0.5	0.5	)))
-		(((	0.5	0.5	)
-		(	0.5	0.5	))
-		((	0.5	0.5	)
-		(	0.5	0.5	))))
-		((((	0.5	0.5	)
-		(	0.5	0.5	))
-		((	0.5	0.5	)
-		(	0.5	0.5	)))
-		(((	0.5	0.5	)
-		(	0.5	0.5	))
-		((	0.5	0.5	)
-		(	0.5	0.5	))))))
-		((((((	0.5	0.5	)
-		(	0.5	0.5	))
-		((	0.5	0.5	)
-		(	0.5	0.5	)))
-		(((	0.5	0.5	)
-		(	0.5	0.5	))
-		((	0.5	0.5	)
-		(	0.5	0.5	))))
-		((((	0.5	0.5	)
-		(	0.5	0.5	))
-		((	0.5	0.5	)
-		(	0.5	0.5	)))
-		(((	0.5	0.5	)
-		(	0.5	0.5	))
-		((	0.5	0.5	)
-		(	0.5	0.5	)))))
-		(((((	0.5	0.5	)
-		(	0.5	0.5	))
-		((	0.5	0.5	)
-		(	0.5	0.5	)))
-		(((	0.5	0.5	)
-		(	0.5	0.5	))
-		((	0.5	0.5	)
-		(	0.5	0.5	))))
-		((((	0.5	0.5	)
-		(	0.5	0.5	))
-		((	0.5	0.5	)
-		(	0.5	0.5	)))
-		(((	0.5	0.5	)
-		(	0.5	0.5	))
-		((	0.5	0.5	)
-		(	0.5	0.5	)))))))
-		(((((((	0.5	0.5	)
-		(	0.5	0.5	))
-		((	0.5	0.5	)
-		(	0.5	0.5	)))
-		(((	0.5	0.5	)
-		(	0.5	0.5	))
-		((	0.5	0.5	)
-		(	0.5	0.5	))))
-		((((	0.5	0.5	)
-		(	0.5	0.5	))
-		((	0.5	0.5	)
-		(	0.5	0.5	)))
-		(((	0.5	0.5	)
-		(	0.5	0.5	))
-		((	0.5	0.5	)
-		(	0.5	0.5	)))))
-		(((((	0.5	0.5	)
-		(	0.5	0.5	))
-		((	0.5	0.5	)
-		(	0.5	0.5	)))
-		(((	0.5	0.5	)
-		(	0.5	0.5	))
-		((	0.5	0.5	)
-		(	0.5	0.5	))))
-		((((	0.5	0.5	)
-		(	0.5	0.5	))
-		((	0.5	0.5	)
-		(	0.5	0.5	)))
-		(((	0.5	0.5	)
-		(	0.5	0.5	))
-		((	0.5	0.5	)
-		(	0.5	0.5	))))))
-		((((((	0.5	0.5	)
-		(	0.5	0.5	))
-		((	0.5	0.5	)
-		(	0.5	0.5	)))
-		(((	0.5	0.5	)
-		(	0.5	0.5	))
-		((	0.5	0.5	)
-		(	0.5	0.5	))))
-		((((	0.5	0.5	)
-		(	0.5	0.5	))
-		((	0.5	0.5	)
-		(	0.5	0.5	)))
-		(((	0.5	0.5	)
-		(	0.5	0.5	))
-		((	0.5	0.5	)
-		(	0.5	0.5	)))))
-		(((((	0.5	0.5	)
-		(	0.5	0.5	))
-		((	0.5	0.5	)
-		(	0.5	0.5	)))
-		(((	0.5	0.5	)
-		(	0.5	0.5	))
-		((	0.5	0.5	)
-		(	0.5	0.5	))))
-		((((	0.5	0.5	)
-		(	0.5	0.5	))
-		((	0.5	0.5	)
-		(	0.5	0.5	)))
-		(((	0.5	0.5	)
-		(	0.5	0.5	))
-		((	0.5	0.5	)
-		(	0.5	0.5	))))))));
+	data = (	0.5	0.5	);
 }
-potential ( StarterMotor | solenoid Battery )
+potential ( CrankShaft | Piston TimingBelt )
 {
 	data = (((	0.5	0.5	)
 		(	0.5	0.5	))
 		((	0.5	0.5	)
 		(	0.5	0.5	)));
 }
-potential ( TimingBelt | )
+potential ( Engine | AirFilter camshaft StarterMotor CombustionChamber )
 {
-	data = (	0.5	0.5	);
+	data = (((((	0.5	0.5	)
+		(	0.5	0.5	))
+		((	0.5	0.5	)
+		(	0.5	0.5	)))
+		(((	0.5	0.5	)
+		(	0.5	0.5	))
+		((	0.5	0.5	)
+		(	0.5	0.5	))))
+		((((	0.5	0.5	)
+		(	0.5	0.5	))
+		((	0.5	0.5	)
+		(	0.5	0.5	)))
+		(((	0.5	0.5	)
+		(	0.5	0.5	))
+		((	0.5	0.5	)
+		(	0.5	0.5	)))));
 }
-potential ( AirFilter | FuelInjector )
+potential ( solenoid | Battery )
 {
 	data = ((	0.5	0.5	)
 		(	0.5	0.5	));
 }
-potential ( Radiator | )
+potential ( IgnitionCoil | Battery )
 {
-	data = (	0.5	0.5	);
+	data = ((	0.5	0.5	)
+		(	0.5	0.5	));
 }
-potential ( IgnitionSystem | TimingBelt Distributor Battery )
+potential ( Valves | FuelInjector )
+{
+	data = ((	0.5	0.5	)
+		(	0.5	0.5	));
+}
+potential ( CombustionChamber | Valves SparkPlug CrankShaft )
 {
 	data = ((((	0.5	0.5	)
 		(	0.5	0.5	))
@@ -403,11 +274,22 @@ potential ( IgnitionSystem | TimingBelt Distributor Battery )
 		((	0.5	0.5	)
 		(	0.5	0.5	))));
 }
-potential ( Distributor | )
+potential ( StarterMotor | solenoid )
+{
+	data = ((	0.5	0.5	)
+		(	0.5	0.5	));
+}
+potential ( SparkPlug | Distributor )
+{
+	data = ((	0.5	0.5	)
+		(	0.5	0.5	));
+}
+potential ( TimingBelt | )
 {
 	data = (	0.5	0.5	);
 }
-potential ( Piston | )
+potential ( Battery | Alternator )
 {
-	data = (	0.5	0.5	);
+	data = ((	0.5	0.5	)
+		(	0.5	0.5	));
 }
