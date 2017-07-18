@@ -1,0 +1,452 @@
+net
+{
+	propagationenginegenerator1791944048146838126L = "edu.ucla.belief.approx.BeliefPropagationSettings@4042122d";
+	recoveryenginegenerator6944530267470113528l = "edu.ucla.util.SettingsImpl@31b76950";
+	node_size = (130 55);
+}
+
+node power_steering_rack
+{
+	states = ("state0" "state1" );
+	position = (182 -237);
+	excludepolicy = "include whole CPT";
+	ismapvariable = "false";
+	ID = "variable11";
+	label = "power_steering_rack";
+	DSLxSUBMODEL = "Root Submodel";
+	diagnosistype = "AUXILIARY";
+}
+node vibration
+{
+	states = ("state0" "state1" );
+	position = (1014 -32);
+	excludepolicy = "include whole CPT";
+	ismapvariable = "false";
+	ID = "variable6";
+	label = "vibration";
+	DSLxSUBMODEL = "Root Submodel";
+	diagnosistype = "AUXILIARY";
+}
+node worn_out_shocks
+{
+	states = ("state0" "state1" );
+	position = (923 -188);
+	excludepolicy = "include whole CPT";
+	ismapvariable = "false";
+	ID = "variable16";
+	label = "worn_out_shocks";
+	DSLxSUBMODEL = "Root Submodel";
+	diagnosistype = "AUXILIARY";
+}
+node shimmy
+{
+	states = ("state0" "state1" );
+	position = (618 -37);
+	excludepolicy = "include whole CPT";
+	ismapvariable = "false";
+	ID = "variable4";
+	label = "shimmy";
+	DSLxSUBMODEL = "Root Submodel";
+	diagnosistype = "AUXILIARY";
+}
+node pulsation
+{
+	states = ("state0" "state1" );
+	position = (475 -36);
+	excludepolicy = "include whole CPT";
+	ismapvariable = "false";
+	ID = "variable3";
+	label = "pulsation";
+	DSLxSUBMODEL = "Root Submodel";
+	diagnosistype = "AUXILIARY";
+}
+node dragging_front_break
+{
+	states = ("state0" "state1" );
+	position = (373 -365);
+	excludepolicy = "include whole CPT";
+	ismapvariable = "false";
+	ID = "variable12";
+	label = "dragging_front_break";
+	DSLxSUBMODEL = "Root Submodel";
+	diagnosistype = "AUXILIARY";
+}
+node Lose_Worn_Front_end_comp
+{
+	states = ("state0" "state1" );
+	position = (-79 -847);
+	excludepolicy = "include whole CPT";
+	ismapvariable = "false";
+	ID = "variable7";
+	label = "Lose_Worn_Front_end_comp";
+	DSLxSUBMODEL = "Root Submodel";
+	diagnosistype = "AUXILIARY";
+}
+node when_accelarating
+{
+	states = ("state0" "state1" );
+	position = (1216 -605);
+	excludepolicy = "include whole CPT";
+	ismapvariable = "false";
+	ID = "variable19";
+	label = "when_accelarating";
+	DSLxSUBMODEL = "Root Submodel";
+	diagnosistype = "AUXILIARY";
+}
+node Lose_worn_tie_rod
+{
+	states = ("state0" "state1" );
+	position = (97 -163);
+	excludepolicy = "include whole CPT";
+	ismapvariable = "false";
+	ID = "variable10";
+	label = "Lose_worn_tie_rod";
+	DSLxSUBMODEL = "Root Submodel";
+	diagnosistype = "AUXILIARY";
+}
+node through_steering
+{
+	states = ("state0" "state1" );
+	position = (830 -467);
+	excludepolicy = "include whole CPT";
+	ismapvariable = "false";
+	ID = "variable22";
+	label = "through_steering";
+	DSLxSUBMODEL = "Root Submodel";
+	diagnosistype = "AUXILIARY";
+}
+node through_seats
+{
+	states = ("state0" "state1" );
+	position = (1005 -453);
+	excludepolicy = "include whole CPT";
+	ismapvariable = "false";
+	ID = "variable23";
+	label = "through_seats";
+	DSLxSUBMODEL = "Root Submodel";
+	diagnosistype = "AUXILIARY";
+}
+node while_breaking
+{
+	states = ("state0" "state1" );
+	position = (1011 -337);
+	excludepolicy = "include whole CPT";
+	ismapvariable = "false";
+	ID = "variable18";
+	label = "while_breaking";
+	DSLxSUBMODEL = "Root Submodel";
+	diagnosistype = "AUXILIARY";
+}
+node pulls
+{
+	states = ("state0" "state1" );
+	position = (313 -27);
+	excludepolicy = "include whole CPT";
+	ismapvariable = "false";
+	ID = "variable2";
+	label = "pulls";
+	DSLxSUBMODEL = "Root Submodel";
+	diagnosistype = "AUXILIARY";
+}
+node excessive_play
+{
+	states = ("state0" "state1" );
+	position = (162 -31);
+	excludepolicy = "include whole CPT";
+	ismapvariable = "false";
+	ID = "variable1";
+	label = "excessive_play";
+	DSLxSUBMODEL = "Root Submodel";
+	diagnosistype = "AUXILIARY";
+}
+node wheel_out_of_alignment
+{
+	states = ("state0" "state1" );
+	position = (-211 -214);
+	excludepolicy = "include whole CPT";
+	ismapvariable = "false";
+	ID = "variable9";
+	label = "wheel_out_of_alignment";
+	DSLxSUBMODEL = "Root Submodel";
+	diagnosistype = "AUXILIARY";
+}
+node drifts
+{
+	states = ("state0" "state1" );
+	position = (4 -31);
+	excludepolicy = "include whole CPT";
+	ismapvariable = "false";
+	ID = "variable0";
+	label = "drifts";
+	DSLxSUBMODEL = "Root Submodel";
+	diagnosistype = "AUXILIARY";
+}
+node bent_wheel_rim
+{
+	states = ("state0" "state1" );
+	position = (1577 -764);
+	excludepolicy = "include whole CPT";
+	ismapvariable = "false";
+	ID = "variable26";
+	label = "bent_wheel_rim";
+	DSLxSUBMODEL = "Root Submodel";
+	diagnosistype = "AUXILIARY";
+}
+node front_wheel_out_of_balance
+{
+	states = ("state0" "state1" );
+	position = (1334 -723);
+	excludepolicy = "include whole CPT";
+	ismapvariable = "false";
+	ID = "variable27";
+	label = "front_wheel_out_of_balance";
+	DSLxSUBMODEL = "Root Submodel";
+	diagnosistype = "AUXILIARY";
+}
+node uneven_tire_pressure
+{
+	states = ("state0" "state1" );
+	position = (100 -680);
+	excludepolicy = "include whole CPT";
+	ismapvariable = "false";
+	ID = "variable8";
+	label = "uneven_tire_pressure";
+	DSLxSUBMODEL = "Root Submodel";
+	diagnosistype = "AUXILIARY";
+}
+node loose_worn_wheel_bearing
+{
+	states = ("state0" "state1" );
+	position = (561 -333);
+	excludepolicy = "include whole CPT";
+	ismapvariable = "false";
+	ID = "variable15";
+	label = "loose_worn_wheel_bearing";
+	DSLxSUBMODEL = "Root Submodel";
+	diagnosistype = "AUXILIARY";
+}
+node loose_worn_suspension_part
+{
+	states = ("state0" "state1" );
+	position = (903 -305);
+	excludepolicy = "include whole CPT";
+	ismapvariable = "false";
+	ID = "variable17";
+	label = "loose_worn_suspension_part";
+	DSLxSUBMODEL = "Root Submodel";
+	diagnosistype = "AUXILIARY";
+}
+node sway
+{
+	states = ("state0" "state1" );
+	position = (810 -42);
+	excludepolicy = "include whole CPT";
+	ismapvariable = "false";
+	ID = "variable5";
+	label = "sway";
+	DSLxSUBMODEL = "Root Submodel";
+	diagnosistype = "AUXILIARY";
+}
+node worn_engine_mounts
+{
+	states = ("state0" "state1" );
+	position = (1005 -803);
+	excludepolicy = "include whole CPT";
+	ismapvariable = "false";
+	ID = "variable25";
+	label = "worn_engine_mounts";
+	DSLxSUBMODEL = "Root Submodel";
+	diagnosistype = "AUXILIARY";
+}
+node wrapped_brake_rotor
+{
+	states = ("state0" "state1" );
+	position = (744 -266);
+	excludepolicy = "include whole CPT";
+	ismapvariable = "false";
+	ID = "variable13";
+	label = "wrapped_brake_rotor";
+	DSLxSUBMODEL = "Root Submodel";
+	diagnosistype = "AUXILIARY";
+}
+node constantly_at_highSpeed
+{
+	states = ("state0" "state1" );
+	position = (1395 -412);
+	excludepolicy = "include whole CPT";
+	ismapvariable = "false";
+	ID = "variable20";
+	label = "constantly_at_highSpeed";
+	DSLxSUBMODEL = "Root Submodel";
+	diagnosistype = "AUXILIARY";
+}
+node worn_break_drums
+{
+	states = ("state0" "state1" );
+	position = (520 -863);
+	excludepolicy = "include whole CPT";
+	ismapvariable = "false";
+	ID = "variable14";
+	label = "worn_break_drums";
+	DSLxSUBMODEL = "Root Submodel";
+	diagnosistype = "AUXILIARY";
+}
+potential ( power_steering_rack | excessive_play )
+{
+	data = ((	0.5	0.5	)
+		(	0.5	0.5	));
+}
+potential ( vibration | )
+{
+	data = (	0.0	1.0	);
+}
+potential ( worn_out_shocks | sway )
+{
+	data = ((	0.5	0.5	)
+		(	0.5	0.5	));
+}
+potential ( shimmy | )
+{
+	data = (	0.5	0.5	);
+}
+potential ( pulsation | )
+{
+	data = (	0.5	0.5	);
+}
+potential ( dragging_front_break | pulls )
+{
+	data = ((	0.5	0.5	)
+		(	0.5	0.5	));
+}
+potential ( Lose_Worn_Front_end_comp | drifts shimmy through_steering when_accelarating constantly_at_highSpeed )
+{
+	data = ((((((	0.5	0.5	)
+		(	0.5	0.5	))
+		((	0.5	0.5	)
+		(	0.5	0.5	)))
+		(((	0.5	0.5	)
+		(	0.5	0.5	))
+		((	0.5	0.5	)
+		(	0.5	0.5	))))
+		((((	0.5	0.5	)
+		(	0.5	0.5	))
+		((	0.5	0.5	)
+		(	0.5	0.5	)))
+		(((	0.5	0.5	)
+		(	0.5	0.5	))
+		((	0.5	0.5	)
+		(	0.5	0.5	)))))
+		(((((	0.5	0.5	)
+		(	0.5	0.5	))
+		((	0.5	0.5	)
+		(	0.5	0.5	)))
+		(((	0.5	0.5	)
+		(	0.5	0.5	))
+		((	0.5	0.5	)
+		(	0.5	0.5	))))
+		((((	0.5	0.5	)
+		(	0.5	0.5	))
+		((	0.5	0.5	)
+		(	0.5	0.5	)))
+		(((	0.5	0.5	)
+		(	0.5	0.5	))
+		((	0.5	0.5	)
+		(	0.5	0.5	))))));
+}
+potential ( when_accelarating | vibration )
+{
+	data = ((	0.5	0.5	)
+		(	0.5	0.5	));
+}
+potential ( Lose_worn_tie_rod | excessive_play )
+{
+	data = ((	0.5	0.5	)
+		(	0.5	0.5	));
+}
+potential ( through_steering | while_breaking )
+{
+	data = ((	0.0	1.0	)
+		(	0.0	1.0	));
+}
+potential ( through_seats | while_breaking )
+{
+	data = ((	0.5	0.5	)
+		(	0.5	0.5	));
+}
+potential ( while_breaking | vibration )
+{
+	data = ((	0.0	1.0	)
+		(	0.0	1.0	));
+}
+potential ( pulls | )
+{
+	data = (	0.5	0.5	);
+}
+potential ( excessive_play | )
+{
+	data = (	0.5	0.5	);
+}
+potential ( wheel_out_of_alignment | drifts )
+{
+	data = ((	0.5	0.5	)
+		(	0.5	0.5	));
+}
+potential ( drifts | )
+{
+	data = (	0.5	0.5	);
+}
+potential ( bent_wheel_rim | constantly_at_highSpeed )
+{
+	data = ((	0.5	0.5	)
+		(	0.5	0.5	));
+}
+potential ( front_wheel_out_of_balance | constantly_at_highSpeed )
+{
+	data = ((	0.5	0.5	)
+		(	0.5	0.5	));
+}
+potential ( uneven_tire_pressure | drifts pulls )
+{
+	data = (((	0.5	0.5	)
+		(	0.5	0.5	))
+		((	0.5	0.5	)
+		(	0.5	0.5	)));
+}
+potential ( loose_worn_wheel_bearing | pulsation shimmy )
+{
+	data = (((	0.5	0.5	)
+		(	0.5	0.5	))
+		((	0.5	0.5	)
+		(	0.5	0.5	)));
+}
+potential ( loose_worn_suspension_part | sway )
+{
+	data = ((	0.5	0.5	)
+		(	0.5	0.5	));
+}
+potential ( sway | )
+{
+	data = (	0.5	0.5	);
+}
+potential ( worn_engine_mounts | when_accelarating )
+{
+	data = ((	0.5	0.5	)
+		(	0.5	0.5	));
+}
+potential ( wrapped_brake_rotor | pulsation )
+{
+	data = ((	0.5	0.5	)
+		(	0.5	0.5	));
+}
+potential ( constantly_at_highSpeed | vibration )
+{
+	data = ((	0.5	0.5	)
+		(	0.5	0.5	));
+}
+potential ( worn_break_drums | pulsation through_seats )
+{
+	data = (((	0.5	0.5	)
+		(	0.5	0.5	))
+		((	0.5	0.5	)
+		(	0.5	0.5	)));
+}
