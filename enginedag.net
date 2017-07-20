@@ -1,0 +1,694 @@
+net
+{
+	propagationenginegenerator1791944048146838126L = "edu.ucla.belief.approx.BeliefPropagationSettings@1b5d3e3a";
+	recoveryenginegenerator6944530267470113528l = "edu.ucla.util.SettingsImpl@6a05fdf";
+	node_size = (130 55);
+}
+
+node HarmonicBalancers
+{
+	states = ("state0" "state1" );
+	position = (820 -424);
+	excludepolicy = "include whole CPT";
+	ismapvariable = "false";
+	ID = "variable22";
+	label = "HarmonicBalancers";
+	DSLxSUBMODEL = "Root Submodel";
+	diagnosistype = "AUXILIARY";
+}
+node IgnitionMisfire
+{
+	states = ("state0" "state1" );
+	position = (-525 -186);
+	excludepolicy = "include whole CPT";
+	ismapvariable = "false";
+	ID = "variable40";
+	label = "IgnitionMisfire";
+	DSLxSUBMODEL = "Root Submodel";
+	diagnosistype = "AUXILIARY";
+}
+node SpinningWhiningOrGearGrinding
+{
+	states = ("state0" "state1" );
+	position = (842 -35);
+	excludepolicy = "include whole CPT";
+	ismapvariable = "false";
+	ID = "variable12";
+	label = "SpinningWhiningOrGearGrinding";
+	DSLxSUBMODEL = "Root Submodel";
+	diagnosistype = "AUXILIARY";
+}
+node SparkPlug
+{
+	states = ("state0" "state1" );
+	position = (65 -356);
+	excludepolicy = "include whole CPT";
+	ismapvariable = "false";
+	ID = "variable32";
+	label = "SparkPlug";
+	DSLxSUBMODEL = "Root Submodel";
+	diagnosistype = "AUXILIARY";
+}
+node RepeatingClickingSound
+{
+	states = ("state0" "state1" );
+	position = (851 -106);
+	excludepolicy = "include whole CPT";
+	ismapvariable = "false";
+	ID = "variable13";
+	label = "RepeatingClickingSound";
+	DSLxSUBMODEL = "Root Submodel";
+	diagnosistype = "AUXILIARY";
+}
+node WornEngineMounts
+{
+	states = ("state0" "state1" );
+	position = (653 -424);
+	excludepolicy = "include whole CPT";
+	ismapvariable = "false";
+	ID = "variable21";
+	label = "WornEngineMounts";
+	DSLxSUBMODEL = "Root Submodel";
+	diagnosistype = "AUXILIARY";
+}
+node No_Fuel_Pressure
+{
+	states = ("state0" "state1" );
+	position = (69 -160);
+	excludepolicy = "include whole CPT";
+	ismapvariable = "false";
+	ID = "variable1";
+	label = "No Fuel Pressure";
+	DSLxSUBMODEL = "Root Submodel";
+	diagnosistype = "AUXILIARY";
+}
+node IdleFluctuates
+{
+	states = ("state0" "state1" );
+	position = (-120 -85);
+	excludepolicy = "include whole CPT";
+	ismapvariable = "false";
+	ID = "variable30";
+	label = "IdleFluctuates";
+	DSLxSUBMODEL = "Root Submodel";
+	diagnosistype = "AUXILIARY";
+}
+node FaultyFuelFilter
+{
+	states = ("state0" "state1" );
+	position = (-373 -361);
+	excludepolicy = "include whole CPT";
+	ismapvariable = "false";
+	ID = "variable26";
+	label = "FaultyFuelFilter";
+	DSLxSUBMODEL = "Root Submodel";
+	diagnosistype = "AUXILIARY";
+}
+node EngineMisFiring
+{
+	states = ("state0" "state1" );
+	position = (823 -290);
+	excludepolicy = "include whole CPT";
+	ismapvariable = "false";
+	ID = "variable23";
+	label = "EngineMisFiring";
+	DSLxSUBMODEL = "Root Submodel";
+	diagnosistype = "AUXILIARY";
+}
+node OverHeating
+{
+	states = ("state0" "state1" );
+	position = (308 -404);
+	excludepolicy = "include whole CPT";
+	ismapvariable = "false";
+	ID = "variable14";
+	label = "OverHeating";
+	DSLxSUBMODEL = "Root Submodel";
+	diagnosistype = "AUXILIARY";
+}
+node FuelPumpReplacement
+{
+	states = ("state0" "state1" );
+	position = (-98 -487);
+	excludepolicy = "include whole CPT";
+	ismapvariable = "false";
+	ID = "variable36";
+	label = "FuelPumpReplacement";
+	DSLxSUBMODEL = "Root Submodel";
+	diagnosistype = "AUXILIARY";
+}
+node WornDistributor
+{
+	states = ("state0" "state1" );
+	position = (844 -203);
+	excludepolicy = "include whole CPT";
+	ismapvariable = "false";
+	ID = "variable24";
+	label = "WornDistributor";
+	DSLxSUBMODEL = "Root Submodel";
+	diagnosistype = "AUXILIARY";
+}
+node VehicleBackFiringWhenStarting
+{
+	states = ("state0" "state1" );
+	position = (493 -35);
+	excludepolicy = "include whole CPT";
+	ismapvariable = "false";
+	ID = "variable8";
+	label = "VehicleBackFiringWhenStarting";
+	DSLxSUBMODEL = "Root Submodel";
+	diagnosistype = "AUXILIARY";
+}
+node VacuumLeaks
+{
+	states = ("state0" "state1" );
+	position = (83 -434);
+	excludepolicy = "include whole CPT";
+	ismapvariable = "false";
+	ID = "variable29";
+	label = "VacuumLeaks";
+	DSLxSUBMODEL = "Root Submodel";
+	diagnosistype = "AUXILIARY";
+}
+node FaultyEngineCoolingFan
+{
+	states = ("state0" "state1" );
+	position = (448 -553);
+	excludepolicy = "include whole CPT";
+	ismapvariable = "false";
+	ID = "variable18";
+	label = "FaultyEngineCoolingFan";
+	DSLxSUBMODEL = "Root Submodel";
+	diagnosistype = "AUXILIARY";
+}
+node StuckThermostat
+{
+	states = ("state0" "state1" );
+	position = (201 -623);
+	excludepolicy = "include whole CPT";
+	ismapvariable = "false";
+	ID = "variable15";
+	label = "StuckThermostat";
+	DSLxSUBMODEL = "Root Submodel";
+	diagnosistype = "AUXILIARY";
+}
+node HighIdle
+{
+	states = ("state0" "state1" );
+	position = (-406 -265);
+	excludepolicy = "include whole CPT";
+	ismapvariable = "false";
+	ID = "variable28";
+	label = "HighIdle";
+	DSLxSUBMODEL = "Root Submodel";
+	diagnosistype = "AUXILIARY";
+}
+node PistonNotWorking
+{
+	states = ("state0" "state1" );
+	position = (732 -354);
+	excludepolicy = "include whole CPT";
+	ismapvariable = "false";
+	ID = "variable11";
+	label = "PistonNotWorking";
+	DSLxSUBMODEL = "Root Submodel";
+	diagnosistype = "AUXILIARY";
+}
+node VehicleRunsHot
+{
+	states = ("state0" "state1" );
+	position = (551 -497);
+	excludepolicy = "include whole CPT";
+	ismapvariable = "false";
+	ID = "variable17";
+	label = "VehicleRunsHot";
+	DSLxSUBMODEL = "Root Submodel";
+	diagnosistype = "AUXILIARY";
+}
+node FuelSystemCleaning
+{
+	states = ("state0" "state1" );
+	position = (-96 -415);
+	excludepolicy = "include whole CPT";
+	ismapvariable = "false";
+	ID = "variable34";
+	label = "FuelSystemCleaning";
+	DSLxSUBMODEL = "Root Submodel";
+	diagnosistype = "AUXILIARY";
+}
+node BadStarter
+{
+	states = ("state0" "state1" );
+	position = (443 -242);
+	excludepolicy = "include whole CPT";
+	ismapvariable = "false";
+	ID = "variable7";
+	label = "BadStarter";
+	DSLxSUBMODEL = "Root Submodel";
+	diagnosistype = "AUXILIARY";
+}
+node No_Spark
+{
+	states = ("state0" "state1" );
+	position = (284 -231);
+	excludepolicy = "include whole CPT";
+	ismapvariable = "false";
+	ID = "variable3";
+	label = "No_Spark";
+	DSLxSUBMODEL = "Root Submodel";
+	diagnosistype = "AUXILIARY";
+}
+node cranks_normally_not_start
+{
+	states = ("state0" "state1" );
+	position = (151 -33);
+	excludepolicy = "include whole CPT";
+	ismapvariable = "false";
+	ID = "variable0";
+	label = "Cranks Normally  Not Start";
+	DSLxSUBMODEL = "Root Submodel";
+	diagnosistype = "AUXILIARY";
+}
+node BadCarbuerator
+{
+	states = ("state0" "state1" );
+	position = (61 -613);
+	excludepolicy = "include whole CPT";
+	ismapvariable = "false";
+	ID = "variable38";
+	label = "BadCarbuerator";
+	DSLxSUBMODEL = "Root Submodel";
+	diagnosistype = "AUXILIARY";
+}
+node IgnitionCoilForSpark
+{
+	states = ("state0" "state1" );
+	position = (-108 -235);
+	excludepolicy = "include whole CPT";
+	ismapvariable = "false";
+	ID = "variable31";
+	label = "IgnitionCoilForSpark";
+	DSLxSUBMODEL = "Root Submodel";
+	diagnosistype = "AUXILIARY";
+}
+node BrokenMissingFanAssembly
+{
+	states = ("state0" "state1" );
+	position = (584 -346);
+	excludepolicy = "include whole CPT";
+	ismapvariable = "false";
+	ID = "variable19";
+	label = "BrokenMissingFanAssembly";
+	DSLxSUBMODEL = "Root Submodel";
+	diagnosistype = "AUXILIARY";
+}
+node WeakBattery
+{
+	states = ("state0" "state1" );
+	position = (375 -146);
+	excludepolicy = "include whole CPT";
+	ismapvariable = "false";
+	ID = "variable5";
+	label = "WeakBattery";
+	DSLxSUBMODEL = "Root Submodel";
+	diagnosistype = "AUXILIARY";
+}
+node cranks_slowly
+{
+	states = ("state0" "state1" );
+	position = (328 -31);
+	excludepolicy = "include whole CPT";
+	ismapvariable = "false";
+	ID = "variable4";
+	label = "cranks_slowly";
+	DSLxSUBMODEL = "Root Submodel";
+	diagnosistype = "AUXILIARY";
+}
+node CarbueratorStalling
+{
+	states = ("state0" "state1" );
+	position = (36 -503);
+	excludepolicy = "include whole CPT";
+	ismapvariable = "false";
+	ID = "variable37";
+	label = "CarbueratorStalling";
+	DSLxSUBMODEL = "Root Submodel";
+	diagnosistype = "AUXILIARY";
+}
+node CloggedAirFilter
+{
+	states = ("state0" "state1" );
+	position = (-499 -659);
+	excludepolicy = "include whole CPT";
+	ismapvariable = "false";
+	ID = "variable27";
+	label = "CloggedAirFilter";
+	DSLxSUBMODEL = "Root Submodel";
+	diagnosistype = "AUXILIARY";
+}
+node EngineHesitation
+{
+	states = ("state0" "state1" );
+	position = (-180 -148);
+	excludepolicy = "include whole CPT";
+	ismapvariable = "false";
+	ID = "variable25";
+	label = "EngineHesitation";
+	DSLxSUBMODEL = "Root Submodel";
+	diagnosistype = "AUXILIARY";
+}
+node EngineTuneUp
+{
+	states = ("state0" "state1" );
+	position = (-653 -284);
+	excludepolicy = "include whole CPT";
+	ismapvariable = "false";
+	ID = "variable42";
+	label = "EngineTuneUp";
+	DSLxSUBMODEL = "Root Submodel";
+	diagnosistype = "AUXILIARY";
+}
+node RoughRunningEngine
+{
+	states = ("state0" "state1" );
+	position = (-522 -473);
+	excludepolicy = "include whole CPT";
+	ismapvariable = "false";
+	ID = "variable33";
+	label = "RoughRunningEngine";
+	DSLxSUBMODEL = "Root Submodel";
+	diagnosistype = "AUXILIARY";
+}
+node CorrodedBatteryTerminal
+{
+	states = ("state0" "state1" );
+	position = (382 -346);
+	excludepolicy = "include whole CPT";
+	ismapvariable = "false";
+	ID = "variable6";
+	label = "CorrodedBatteryTerminal";
+	DSLxSUBMODEL = "Root Submodel";
+	diagnosistype = "AUXILIARY";
+}
+node LowCoolantLevel
+{
+	states = ("state0" "state1" );
+	position = (321 -537);
+	excludepolicy = "include whole CPT";
+	ismapvariable = "false";
+	ID = "variable16";
+	label = "LowCoolantLevel";
+	DSLxSUBMODEL = "Root Submodel";
+	diagnosistype = "AUXILIARY";
+}
+node BadIgnitionSystem
+{
+	states = ("state0" "state1" );
+	position = (623 -253);
+	excludepolicy = "include whole CPT";
+	ismapvariable = "false";
+	ID = "variable9";
+	label = "BadIgnitionSystem";
+	DSLxSUBMODEL = "Root Submodel";
+	diagnosistype = "AUXILIARY";
+}
+node EngineVibration
+{
+	states = ("state0" "state1" );
+	position = (726 -489);
+	excludepolicy = "include whole CPT";
+	ismapvariable = "false";
+	ID = "variable20";
+	label = "EngineVibration";
+	DSLxSUBMODEL = "Root Submodel";
+	diagnosistype = "AUXILIARY";
+}
+node stalling
+{
+	states = ("state0" "state1" );
+	position = (-318 -561);
+	excludepolicy = "include whole CPT";
+	ismapvariable = "false";
+	ID = "variable35";
+	label = "stalling";
+	DSLxSUBMODEL = "Root Submodel";
+	diagnosistype = "AUXILIARY";
+}
+node Bad_Timing_Chain
+{
+	states = ("state0" "state1" );
+	position = (178 -499);
+	excludepolicy = "include whole CPT";
+	ismapvariable = "false";
+	ID = "variable2";
+	label = "Bad_Timing_Chain";
+	DSLxSUBMODEL = "Root Submodel";
+	diagnosistype = "AUXILIARY";
+}
+node OneStrongClickOrKnock
+{
+	states = ("state0" "state1" );
+	position = (689 -29);
+	excludepolicy = "include whole CPT";
+	ismapvariable = "false";
+	ID = "variable10";
+	label = "OneStrongClickOrKnock";
+	DSLxSUBMODEL = "Root Submodel";
+	diagnosistype = "AUXILIARY";
+}
+potential ( HarmonicBalancers | EngineVibration )
+{
+	data = ((	0.5	0.5	)
+		(	0.5	0.5	));
+}
+potential ( IgnitionMisfire | )
+{
+	data = (	0.5	0.5	);
+}
+potential ( SpinningWhiningOrGearGrinding | )
+{
+	data = (	0.5	0.5	);
+}
+potential ( SparkPlug | IgnitionCoilForSpark No_Spark IgnitionMisfire )
+{
+	data = ((((	0.5	0.5	)
+		(	0.5	0.5	))
+		((	0.5	0.5	)
+		(	0.5	0.5	)))
+		(((	0.5	0.5	)
+		(	0.5	0.5	))
+		((	0.5	0.5	)
+		(	0.5	0.5	))));
+}
+potential ( RepeatingClickingSound | )
+{
+	data = (	0.5	0.5	);
+}
+potential ( WornEngineMounts | EngineVibration )
+{
+	data = ((	0.5	0.5	)
+		(	0.5	0.5	));
+}
+potential ( No_Fuel_Pressure | cranks_normally_not_start )
+{
+	data = ((	0.5	0.5	)
+		(	0.5	0.5	));
+}
+potential ( IdleFluctuates | )
+{
+	data = (	0.5	0.5	);
+}
+potential ( FaultyFuelFilter | EngineHesitation HighIdle )
+{
+	data = (((	0.5	0.5	)
+		(	0.5	0.5	))
+		((	0.5	0.5	)
+		(	0.5	0.5	)));
+}
+potential ( EngineMisFiring | )
+{
+	data = (	0.5	0.5	);
+}
+potential ( OverHeating | )
+{
+	data = (	0.5	0.5	);
+}
+potential ( FuelPumpReplacement | stalling )
+{
+	data = ((	0.5	0.5	)
+		(	0.5	0.5	));
+}
+potential ( WornDistributor | EngineMisFiring )
+{
+	data = ((	0.5	0.5	)
+		(	0.5	0.5	));
+}
+potential ( VehicleBackFiringWhenStarting | )
+{
+	data = (	0.5	0.5	);
+}
+potential ( VacuumLeaks | HighIdle )
+{
+	data = ((	0.5	0.5	)
+		(	0.5	0.5	));
+}
+potential ( FaultyEngineCoolingFan | OverHeating VehicleRunsHot )
+{
+	data = (((	0.5	0.5	)
+		(	0.5	0.5	))
+		((	0.5	0.5	)
+		(	0.5	0.5	)));
+}
+potential ( StuckThermostat | OverHeating )
+{
+	data = ((	0.5	0.5	)
+		(	0.5	0.5	));
+}
+potential ( HighIdle | )
+{
+	data = (	0.5	0.5	);
+}
+potential ( PistonNotWorking | OneStrongClickOrKnock )
+{
+	data = ((	0.5	0.5	)
+		(	0.5	0.5	));
+}
+potential ( VehicleRunsHot | )
+{
+	data = (	0.5	0.5	);
+}
+potential ( FuelSystemCleaning | RoughRunningEngine )
+{
+	data = ((	0.5	0.5	)
+		(	0.5	0.5	));
+}
+potential ( BadStarter | cranks_slowly OneStrongClickOrKnock SpinningWhiningOrGearGrinding RepeatingClickingSound )
+{
+	data = (((((	0.5	0.5	)
+		(	0.5	0.5	))
+		((	0.5	0.5	)
+		(	0.5	0.5	)))
+		(((	0.5	0.5	)
+		(	0.5	0.5	))
+		((	0.5	0.5	)
+		(	0.5	0.5	))))
+		((((	0.5	0.5	)
+		(	0.5	0.5	))
+		((	0.5	0.5	)
+		(	0.5	0.5	)))
+		(((	0.5	0.5	)
+		(	0.5	0.5	))
+		((	0.5	0.5	)
+		(	0.5	0.5	)))));
+}
+potential ( No_Spark | cranks_normally_not_start )
+{
+	data = ((	0.5	0.5	)
+		(	0.5	0.5	));
+}
+potential ( cranks_normally_not_start | )
+{
+	data = (	0.5	0.5	);
+}
+potential ( BadCarbuerator | CarbueratorStalling )
+{
+	data = ((	0.5	0.5	)
+		(	0.5	0.5	));
+}
+potential ( IgnitionCoilForSpark | IdleFluctuates RoughRunningEngine stalling IgnitionMisfire )
+{
+	data = (((((	0.5	0.5	)
+		(	0.5	0.5	))
+		((	0.5	0.5	)
+		(	0.5	0.5	)))
+		(((	0.5	0.5	)
+		(	0.5	0.5	))
+		((	0.5	0.5	)
+		(	0.5	0.5	))))
+		((((	0.5	0.5	)
+		(	0.5	0.5	))
+		((	0.5	0.5	)
+		(	0.5	0.5	)))
+		(((	0.5	0.5	)
+		(	0.5	0.5	))
+		((	0.5	0.5	)
+		(	0.5	0.5	)))));
+}
+potential ( BrokenMissingFanAssembly | VehicleRunsHot )
+{
+	data = ((	0.5	0.5	)
+		(	0.5	0.5	));
+}
+potential ( WeakBattery | cranks_slowly RepeatingClickingSound )
+{
+	data = (((	0.5	0.5	)
+		(	0.5	0.5	))
+		((	0.5	0.5	)
+		(	0.5	0.5	)));
+}
+potential ( cranks_slowly | )
+{
+	data = (	0.5	0.5	);
+}
+potential ( CarbueratorStalling | )
+{
+	data = (	0.5	0.5	);
+}
+potential ( CloggedAirFilter | EngineHesitation IdleFluctuates )
+{
+	data = (((	0.5	0.5	)
+		(	0.5	0.5	))
+		((	0.5	0.5	)
+		(	0.5	0.5	)));
+}
+potential ( EngineHesitation | )
+{
+	data = (	0.5	0.5	);
+}
+potential ( EngineTuneUp | IgnitionMisfire )
+{
+	data = ((	0.5	0.5	)
+		(	0.5	0.5	));
+}
+potential ( RoughRunningEngine | )
+{
+	data = (	0.5	0.5	);
+}
+potential ( CorrodedBatteryTerminal | cranks_slowly RepeatingClickingSound )
+{
+	data = (((	0.5	0.5	)
+		(	0.5	0.5	))
+		((	0.5	0.5	)
+		(	0.5	0.5	)));
+}
+potential ( LowCoolantLevel | OverHeating )
+{
+	data = ((	0.5	0.5	)
+		(	0.5	0.5	));
+}
+potential ( BadIgnitionSystem | VehicleBackFiringWhenStarting EngineMisFiring )
+{
+	data = (((	0.5	0.5	)
+		(	0.5	0.5	))
+		((	0.5	0.5	)
+		(	0.5	0.5	)));
+}
+potential ( EngineVibration | )
+{
+	data = (	0.5	0.5	);
+}
+potential ( stalling | )
+{
+	data = (	0.5	0.5	);
+}
+potential ( Bad_Timing_Chain | cranks_normally_not_start VehicleBackFiringWhenStarting )
+{
+	data = (((	0.5	0.5	)
+		(	0.5	0.5	))
+		((	0.5	0.5	)
+		(	0.5	0.5	)));
+}
+potential ( OneStrongClickOrKnock | )
+{
+	data = (	0.5	0.5	);
+}
